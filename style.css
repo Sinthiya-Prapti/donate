@@ -63,18 +63,28 @@ body {
     background-color: rgb(240, 223, 217);
     border: 2px solid orange;
     color: orange;
+    transition: 0.3s;
 
 }
 
 .other_amount small {
     color: gray;
 }
+.other_amount input{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid rgb(202, 198, 198);
+    width: 50%;
+}
 
-.other_amount hr {
+/* .other_amount hr {
     width: 50%;
     color: gray;
     margin-bottom: 40px;
-}
+} */
 
 /* end donate today tk part */
 /* start donate plan 3 card */
