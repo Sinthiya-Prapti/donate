@@ -1,140 +1,170 @@
-body{
+body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
-.header_part{
+
+.header_part {
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
     width: 100%;
     height: 700px;
     background-size: cover;
 }
-.header_text{
+
+.header_text {
     text-align: center;
     align-items: center;
     padding-top: 100px;
     color: white;
 }
-.header_text h1{
+
+.header_text h1 {
     font-size: 40px;
 }
-.header_text p{
+
+.header_text p {
     padding-bottom: 30px;
 }
+
 /* end header part */
 /* start donate today tk part */
-.donate_btn{
+.donate_btn {
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 30px;
     border-radius: 10px;
     font-weight: bold;
 
 }
-.donate_text{
+
+.donate_text {
     width: 100%;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.donate_tk{
+
+.donate_tk {
     display: flex;
     margin: 3% 25%;
 }
-.donate_box{
+
+.donate_box {
     width: 10%;
     background-color: gainsboro;
     padding: 10px 30px;
     margin-left: 15px;
     border-radius: 5px;
 }
-.donate_box_hover:hover{
-    background-color:rgb(240, 223, 217);
+
+.active,
+.donate_box_hover:hover {
+    background-color: rgb(240, 223, 217);
     border: 2px solid orange;
     color: orange;
-    
+
 }
-.other_amount small{
+
+.other_amount small {
     color: gray;
 }
-.other_amount hr{
+
+.other_amount hr {
     width: 50%;
     color: gray;
     margin-bottom: 40px;
 }
+
 /* end donate today tk part */
 /* start donate plan 3 card */
-.donate_wrapper{
+.donate_wrapper {
     padding-top: 50px;
 }
-.donate_plan_header_text{
+
+.donate_plan_header_text {
     text-align: center;
 }
-.box_sizing{
+
+.box_sizing {
     display: flex;
     margin: 5% 15%;
 }
-.box_sizing_row1{
+
+.box_sizing_row1 {
     width: 20%;
-    padding: 20px 40px;
+    padding: 20px 50px;
     margin-left: 20px;
     border-radius: 10px;
 }
-.box_color1{
+
+.box_color1 {
     background-color: rgb(225, 241, 247);
 }
-.box_color2{
+
+.box_color2 {
     background-color: rgb(236, 217, 220);
 }
-.box_color3{
+
+.box_color3 {
     background-color: rgb(245, 178, 153);
 }
+
 /* end donate plan 3 card */
 /* start form */
-.form_wrapper{
+.form_wrapper {
     padding-top: 50px;
     padding-bottom: 100px;
 }
-.form_text{
+
+.form_text {
     text-align: center;
 
 }
-.email_button{
+
+.email_button {
     background-color: bisque;
     padding: 5%;
     text-align: center;
     width: 500px;
-    margin-left:26%;
+    margin-left: 26%;
     margin-right: 20%;
     border-radius: 2px;
 }
-.email_button input{
+
+.email_button input {
     background-color: darkgray;
     border: none;
-    padding: 10px 15px;
+    padding: 13px 15px;
     border-radius: 2px;
 }
-.button_sizing{
+
+.button_sizing {
     margin-left: -5px;
     border-radius: 2px;
 }
+
 /* start footer */
 
-.footer{
+.footer {
     background-color: black;
     padding: 30px;
 }
-.footer_text{
+
+.footer_text {
     text-align: center;
     color: white;
 }
-.footer_text h1{
-    color:tomato;
+
+.footer_text h1 {
+    color: tomato;
     font-style: italic;
-    
+
 
 }
-.footer_text p{
+
+.footer_text p {
     color: lightgrey;
 }
+
 /* end footer part */
